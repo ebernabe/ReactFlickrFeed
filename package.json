@@ -1,0 +1,21 @@
+{
+  "name": "ejemplo-flux",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "scripts":{
+      "build":"browserify -t babelify app.js > build.js"
+    },
+  "dependencies": {
+    "reflux": "~0.2.10",
+    "react": "~0.13.3",
+    "jquery": "~2.1.4",
+    "browserify": "~11.0.0",
+    "babelify": "~6.1.3"
+  }
+}
